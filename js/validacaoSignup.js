@@ -40,4 +40,5 @@ button.addEventListener('click', (event) => {
     if(email.value.index0f("@") == -1 || email.value.index0f(".") == -1 || (email.value.index0f(".") - email.value.index0f("@") == -1)) {
         email.classList.add('errorinput')
     }
+
 })
